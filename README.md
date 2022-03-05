@@ -8,6 +8,7 @@ proxmox script to import vm from OVA
 
 # Usage
 
+    - chmod +x proxmox_import_vm_from_ova.sh
     - ./proxmox_import_vm_from_ova.sh <OVA FILE>
 
 
