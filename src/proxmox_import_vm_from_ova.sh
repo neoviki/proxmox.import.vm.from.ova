@@ -52,7 +52,7 @@ function generate_vm_id(){
 	do
 		qm list --full |  awk '{print $1}' | grep "$new_vm_id" 2>/dev/null 1>/dev/null
 	
-		if [ $? -eq 0 ]; then
+		if [ $? -ne 0 ]; then
 			echo "INFO: New VM is getting created with id : $new_vm_id"
 			break
 		fi
