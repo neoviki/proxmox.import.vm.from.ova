@@ -128,3 +128,9 @@ enable_serial
 enable_gui
 start_vm
 cleanup
+
+echo
+echo
+echo "New VM is created with id : [ $new_vm_id ]"
+echo
+echo
